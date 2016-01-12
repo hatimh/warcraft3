@@ -5,7 +5,7 @@ class Barracks
     @food = 80
   end
   def can_train_footman?
-    (@gold > 134) && (@food > 1)
+    (gold > 134) && (food > 1)
 
   end
   def train_footman
@@ -17,7 +17,7 @@ class Barracks
     nil
   end
   def can_train_peasant?
-    (@gold > 89) && (@food > 4)
+    (gold > 89) && (food > 4)
 
   end
    def train_peasant
